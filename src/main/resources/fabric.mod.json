@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "dont-break-my-lead",
+	"version": "${version}",
+	"name": "Don't Break My Lead!",
+	"description": "Prevents breaking all of your leads when boosting with a firework while gliding in 1.21.6+.",
+	"authors": [
+		"7410"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/dont-break-my-lead",
+		"sources": "https://github.com/O7410/Dont-Break-My-Lead"
+	},
+	"license": "CC-BY-NC-4.0",
+	"icon": "assets/dont-break-my-lead/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"o7410.dontbreakmylead.DontBreakMyLead"
+		]
+	},
+	"mixins": [
+		"dont-break-my-lead.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.6",
+		"java": ">=21"
+	},
+	"suggests": {
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.modrinth": "https://modrinth.com/project/dont-break-my-lead"
+			}
+		}
+	}
+}

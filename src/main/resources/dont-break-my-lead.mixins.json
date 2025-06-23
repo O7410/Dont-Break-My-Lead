@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "o7410.dontbreakmylead.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"FireworkRocketItemMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
